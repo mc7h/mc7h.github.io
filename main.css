@@ -1,0 +1,142 @@
+
+html {
+    background-color: #ffffff;
+}
+
+body {
+    margin: 0 auto;
+    padding: 2em 2em 4em;
+    max-width: 720px;
+    font-family: source-sans-pro, sans-serif;
+    font-size: 12pt;
+    line-height: 1.5em;
+    color: #545454;
+    background-color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #222;
+    font-weight: 600;
+    line-height: 1.3em;
+}
+
+h2 {
+    margin-top: 1.3em;
+}
+
+em {
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+a {
+    text-decoration:none;
+    color:black;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+
+a:hover { 
+    background-color: rgba(0, 0, 0, 0.05); 
+}
+
+.tagline {
+    text-align:center;
+}
+
+.new-tag {
+    color:#954040;
+    letter-spacing:0.06em;
+}
+
+#avatar {
+    background: transparent;
+    border: 10px solid rgba(0, 0, 0, 0.12);
+    border-radius: 14px;
+    display: block;
+    margin: 1em auto;
+    max-width: 40%;
+    -webkit-animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+}
+
+i {
+    font-size: 110%;
+}
+
+#cloud { 
+    font-family: source-code-pro, sans-serif;
+    font-size:75%;
+    margin: 0; 
+    padding:0;
+    max-width:100%;
+    line-height: 2.8em; 
+    text-align: left; 
+}
+
+#cloud li { 
+    display: inline;
+    background-color:rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 6px;
+    padding:0.3em;
+}
+
+#badges a:hover {
+    background-color:#ffffff;
+}
+
+#badges img {
+    max-height: 4em;
+    opacity:0.4;
+}
+
+#badges img:hover {
+    max-height: 4em;
+    opacity:1.0;
+}
+
+#legal {
+    margin-top: 4.0em;
+    font-family: source-code-pro, sans-serif;
+    font-size:60%;
+    float:left;
+    color:rgba(0, 0, 0, 0.3);
+}
+
+#hakbox {
+    margin-top: 4.0em;
+    font-size:60%;
+    float:right;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#hakbox a {
+    color: #0000ff;
+}
+
+#hakbox a:hover {
+    text-decoration:underline;
+}
+
+/* Animations */
+
+@keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+    }
+}
+
+@-webkit-keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+    }
+}
