@@ -62,7 +62,7 @@ a:hover {
     border-radius: 14px;
     display: block;
     margin: 1em auto;
-    max-width: 40%;
+    max-width: 20%;
     -webkit-animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
 }
 
@@ -125,6 +125,25 @@ i {
     text-decoration:underline;
 }
 
+/* Social Icons */
+
+.link-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.link-list li {
+    display: inline;
+    align-items: center;
+    line-height: 1.5;
+}
+  
+.icon {
+    width: 1.5em;
+    height: 1.5em;
+}
+  
 /* Animations */
 
 @keyframes colorize {

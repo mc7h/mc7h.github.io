@@ -7,7 +7,10 @@
         <title>mc7h.me</title>
         <meta name="description" content="">
         <link rel="stylesheet" href="main.css">
-        <link rel="shortcut icon" href="favicon.png">
+        <link rel="shortcut icon" href="static/favicon.png">
+        <link rel="preload" as="image" href="static/github.svg" />
+        <link rel="preload" as="image" href="static/mastodon.svg" />
+        <link rel="preload" as="image" href="static/rss.svg" />
         <script src="https://use.edgefonts.net/source-sans-pro.js"></script>
         <script src="https://use.edgefonts.net/source-code-pro.js"></script>
         <meta name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
@@ -18,7 +21,7 @@
         Avatar & Tagline
     -->
     <a href="#">
-        <img id="avatar" alt="mc7h" src="https://pbs.twimg.com/profile_images/1627062021/eightbit-5fe6358d-5252-479f-85aa-2eb64ccfab70.png" />
+        <img id="avatar" alt="mc7h" src="https://files.mastodon.social/accounts/avatars/109/313/149/018/464/298/original/be8f613c22c1a44c.png" />
     </a>
 
     <!--
@@ -26,11 +29,11 @@
     -->
     <h2>About</h2>
     <p>
-        Hi, I'm Marc (<a href="http://www.twitter.com/mc7h">@mc7h</a>) a software engineer and mobile technology specialist based in <a href="http://goo.gl/1Ns4uk">Sydney</a>. I spend the majority of my time developing software for phones, tablets and other portable devices. I've been fascinated with computers since I was pixel high and consider the <a href="http://en.wikipedia.org/wiki/Amiga_600">Amiga 600</a> to be the best system ever made. Nowadays, however, I mostly use a Macbook.
+        Hi, I'm Marc (<a rel="me" href="https://mastodon.social/@mc7h">@mc7h</a>) a software engineer and mobile technology specialist based in <a href="http://goo.gl/1Ns4uk">Sydney</a>. I spend the majority of my time developing software for phones, tablets and other portable devices. I've been fascinated with computers since I was pixel high and consider the <a href="http://en.wikipedia.org/wiki/Amiga_600">Amiga 600</a> to be the best system ever made. Nowadays, however, I mostly use a Macbook.
     </p>
 
     <!--
-        Projects
+        Permalinks
     -->
 
     <!-- TODO :) -->
@@ -39,14 +42,12 @@
         Elsewhere
     -->
     <h2>Elsewhere</h2>
-    <ul>
-        <li><a href="http://github.com/mc7h">GitHub</a></li>
-        <li><a rel="me" href="https://mastodon.social/@mc7h">Mastodon</a></li>
-        <li><a href="https://medium.com/@mc7h">Medium</a></li>
-        <li><a href="http://twitter.com/mc7h">&#128274;Twitter</a></li>
-        <li><a href="https://stackoverflow.com/users/510831/mc7h">StackOverflow</a></li>
+    <ul class="link-list">
+        <li><a href="#"><img class="icon" src="static/github.svg" alt="Icon 1" />hi</a></li>
+        <li><a href="#"><img class="icon" src="static/mastodon.svg" alt="Icon 2"></a></li>
+        <li><a href="#"><img class="icon" src="static/mastodon.svg" alt="Icon 2"></a></li>
     </ul>
-
+ 
     <!--
         Interests Cloud
     -->
@@ -71,7 +72,7 @@
         Footer
     -->
     <footer>
-        <span id="legal"></i>Copyright &copy; mc7h 2022. All rights reserved.</span>
+        <span id="legal"></i>Copyright &copy; mc7h 2023. All rights reserved.</span>
         <span id="hakbox">
             <a href="http://goo.gl/P2YXpF" target="_blank">&Pi;</a>
         </span>
