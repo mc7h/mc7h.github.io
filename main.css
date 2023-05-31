@@ -62,7 +62,7 @@ a:hover {
     border-radius: 14px;
     display: block;
     margin: 1em auto;
-    max-width: 40%;
+    max-width: 25%;
     -webkit-animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
 }
 
