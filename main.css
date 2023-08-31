@@ -7,7 +7,7 @@ body {
     margin: 0 auto;
     padding: 2em 2em 4em;
     max-width: 720px;
-    font-family: source-sans-pro, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 12pt;
     line-height: 1.5em;
     color: #545454;
@@ -40,7 +40,21 @@ a {
 }
 
 a:hover {
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: rgb(243, 227, 247);
+}
+
+i {
+    font-size: 110%;
+}
+
+.date {
+    font-family: 'Source Code Pro', sans-serif;
+    font-size:75%;
+    background-color:rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 6px;
+    padding:0.1em;
+    margin-left: 0.6em;
 }
 
 .tagline {
@@ -66,48 +80,12 @@ a:hover {
     -webkit-animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
 }
 
-i {
-    font-size: 110%;
-}
-
-#cloud {
-    font-family: source-code-pro, sans-serif;
-    font-size:75%;
-    margin: 0;
-    padding:0;
-    max-width:100%;
-    line-height: 2.8em;
-    text-align: left;
-}
-
-#cloud li {
-    display: inline;
-    background-color:rgba(0, 0, 0, 0.05);
-    border: 1px solid rgba(0, 0, 0, 0.12);
-    border-radius: 6px;
-    padding:0.3em;
-}
-
-#badges a:hover {
-    background-color:#ffffff;
-}
-
-#badges img {
-    max-height: 4em;
-    opacity:0.4;
-}
-
-#badges img:hover {
-    max-height: 4em;
-    opacity:1.0;
-}
-
 #legal {
     margin-top: 4.0em;
-    font-family: source-code-pro, sans-serif;
-    font-size:60%;
+    font-family: 'Source Code Pro', sans-serif;
+    font-size:70%;
     float:left;
-    color:rgba(0, 0, 0, 0.3);
+    color:rgba(0, 0, 0, 0.5);
 }
 
 #hakbox {
