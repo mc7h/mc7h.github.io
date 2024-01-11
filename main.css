@@ -15,9 +15,16 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4, h5, h6 {
+#tagline {
+    font-size: 16pt;
+    font-weight: 500;
+    line-height: 1.3em;
+    text-align:center;
+}
+
+ h1, h2, h3, h4, h5, h6 {
     color: #222;
-    font-weight: 600;
+    font-weight: 00;
     line-height: 1.3em;
 }
 
@@ -52,10 +59,6 @@ i {
     border-radius: 6px;
     padding:0.1em;
     margin-left: 0.6em;
-}
-
-.tagline {
-    text-align:center;
 }
 
 .new-tag {
