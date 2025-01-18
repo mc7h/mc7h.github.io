@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -13,26 +13,12 @@
         <meta name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
     </head>
     <body>
-        <!--
-            Avatar & Tagline
-        -->
         <a href="#">
             <img id="avatar" alt="mc7h" src="https://avatars.githubusercontent.com/u/839779">
         </a>
-        <!--
-            Hi
-        -->
-        <div id="tagline">👋G’day! I'm Marc (<a href="https://mastodon.social/@mc7h">@mc7h</a>) a software engineer and mobile technology specialist based in <a href="http://goo.gl/1Ns4uk">Sydney</a></div>
-        <!--
-            Blog
-        -->
-        <h2>Blog</h2>
-        <ul>
-            <li><a href="https://gist.github.com/mc7h/4c2a4fdd60d831229101ec0b5daf28ee" target="_blank">Blogging with Github Gists</a><span class="date">26-Aug-2023</span></li>
-        </ul>
-        <!--
-            Elsewhere
-        -->
+
+        <div id="tagline">👋G'day! I'm Marc (<a href="https://mastodon.social/@mc7h">@mc7h</a>) a software engineer and mobile technology specialist based in <a href="http://goo.gl/1Ns4uk">Sydney</a></div>
+
         <h2>Elsewhere</h2>
         <ul>
             <li><a href="mailto:hello@mc7h.me">Email</a></li>
@@ -41,42 +27,65 @@
             <li><a href="https://stackoverflow.com/users/510831/mc7h">StackOverflow</a></li>
             <li><a href="https://www.thingiverse.com/mc7h/designs">Thingiverse</a></li>
         </ul>
-        <!--
-            Interests Cloud
-        -->
-        <h2>Things i <small class="wuv">&hearts;</small></h2>
+
+        <h2>Gists</h2>
         <ul>
-            <li>3DP</li>
-            <li>Board Games</li>
-            <li>Bouldering</li>
-            <li>Coffee</li>
-            <li>Cocktails</li>
-            <li>Horror Movies</li>
-            <li>Retro Gaming</li>
-            <li>Self-Hosting</li>
-            <li>Sumo</li>
+            <li><a href="https://gist.github.com/mc7h/4c2a4fdd60d831229101ec0b5daf28ee" target="_blank">Blogging with Github Gists</a><span class="date">26-Aug-2023</span></li>
         </ul>
-        <!-- 
-            Annual awards
-        -->
-        <h2>Best of <em>2023</em></h2>
-        <ul class="nobullet">
-            <li>📖 <a href="https://www.buildingasecondbrain.com/book">Building a Second Brain</a></li>
-            <li>🎲 <a href="https://boardgamegeek.com/boardgame/316554/dune-imperium">Dune Imperium</a></li>
-            <li>🕹️ <a href="https://baldursgate3.game">Baldurs Gate 3</a></li>
-            <li>🎬 <a href="https://www.imdb.com/title/tt23289160">Godzilla Minus One</a></li>
-            <li>📺 <a href="https://https://www.imdb.com/title/tt14269590">Poker Face</a></li>
-            <li>🔉 <a href="https://selfhosted.show">Self-Hosted Podcast</a></li>
-            <li>🎶 <a href="https://www.youtube.com/watch?v=0KED_hw670U">Song of the Dead</a></li>
-        </ul>
-        <!--
-        Footer
-        -->
+      
+        <div class="bests">
+          <div>
+              <h2>Best of <em>2024</em></h2>
+              <ul class="nobullet">
+                  <li>📖 <a href="https://www.goodreads.com/book/show/17837762-uzumaki">Uzumaki</a></li>
+                  <li>🎲 <a href="https://boardgamegeek.com/boardgame/362944/war-of-the-ring-the-card-game">War of the Ring: The Card Game</a></li>
+                  <li>💾 <a href="https://moonlight-stream.org">Moonlight (& Sunshine)</a></li>
+                  <li>🕹️ <a href="https://store.steampowered.com/app/1336490/Against_the_Storm/">Against the Storm</a></li>
+                  <li>🎬 <a href="https://www.imdb.com/title/tt23770030">Memoir of a Snail</a></li>
+                  <li>📺 <a href="https://www.imdb.com/title/tt27846061/">Ludwig</a></li>
+                  <li>🔉 <a href="https://redhandedpodcast.com">Redhanded</a></li>
+                  <li>🎶 <a href="https://www.youtube.com/watch?v=IL1nlWOciL0">Linkin Park: From Zero</a></li>
+              </ul>
+          </div>
+          <div>
+              <h2><em>2023</em></h2>
+              <ul class="nobullet">
+                  <li>📖 <a href="https://www.goodreads.com/book/show/122316357-how-to-build-a-second-brain">Building a Second Brain</a></li>
+                  <li>🎲 <a href="https://boardgamegeek.com/boardgame/316554/dune-imperium">Dune Imperium</a></li>
+                  <li>💾 <a href="https://jellyfin.org">Jellyfin</a></li>
+                  <li>🕹️ <a href="https://store.steampowered.com/app/1086940/Baldurs_Gate_3/">Baldurs Gate 3</a></li>
+                  <li>🎬 <a href="https://www.imdb.com/title/tt23289160">Godzilla Minus One</a></li>
+                  <li>📺 <a href="https://www.imdb.com/title/tt14269590">Poker Face</a></li>
+                  <li>🔉 <a href="https://selfhosted.show">Self-Hosted Podcast</a></li>
+                  <li>🎶 <a href="https://www.youtube.com/watch?v=0KED_hw670U">Song of the Dead</a></li>
+              </ul>
+          </div>
+        </div>        
+
+        <button id="theme-toggle">🌓</button>
+
         <footer>
-            <span id="legal">Copyright &copy; mc7h 2024. All rights reserved.</span>
+            <span id="legal">Copyright &copy; mc7h 2025. All rights reserved.</span>
             <span id="hakbox">
                 <a href="http://goo.gl/P2YXpF" target="_blank">&Pi;</a>
             </span>
         </footer>
+
+        <script>
+            const themeToggle = document.getElementById('theme-toggle');
+            const html = document.documentElement;
+            
+            // Check for saved theme preference
+            const savedTheme = localStorage.getItem('theme') || 'light';
+            html.setAttribute('data-theme', savedTheme);
+            
+            themeToggle.addEventListener('click', () => {
+                const currentTheme = html.getAttribute('data-theme');
+                const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+                
+                html.setAttribute('data-theme', newTheme);
+                localStorage.setItem('theme', newTheme);
+            });
+        </script>
     </body>
 </html>
