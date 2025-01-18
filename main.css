@@ -1,0 +1,129 @@
+
+html {
+    background-color: #ffffff;
+}
+
+body {
+    margin: 0 auto;
+    padding: 2em 2em 4em;
+    max-width: 720px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12pt;
+    line-height: 1.5em;
+    color: #545454;
+    background-color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+}
+
+#tagline {
+    font-size: 16pt;
+    font-weight: 500;
+    line-height: 1.3em;
+    text-align:center;
+}
+
+ h1, h2, h3, h4, h5, h6 {
+    color: #222;
+    font-weight: 00;
+    line-height: 1.3em;
+}
+
+h2 {
+    margin-top: 1.3em;
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+a {
+    text-decoration:none;
+    color:black;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+
+a:hover {
+    background-color: rgb(243, 227, 247);
+}
+
+i {
+    font-size: 110%;
+}
+
+.date {
+    font-family: 'Source Code Pro', sans-serif;
+    font-size:75%;
+    background-color:rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 6px;
+    padding:0.1em;
+    margin-left: 0.6em;
+}
+
+.new-tag {
+    color: #954040;
+    letter-spacing:0.06em;
+}
+
+.wuv {
+    color: #e26a6a;
+}
+
+.nobullet {
+    list-style-type: none;
+    padding-left: 1em;
+}
+
+#avatar {
+    background: transparent;
+    border: 10px solid rgba(0, 0, 0, 0.12);
+    border-radius: 14px;
+    display: block;
+    margin: 1em auto;
+    max-width: 25%;
+    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+}
+
+#legal {
+    margin-top: 4.0em;
+    font-family: 'Source Code Pro', sans-serif;
+    font-size:70%;
+    float:left;
+    color:rgba(0, 0, 0, 0.5);
+}
+
+#hakbox {
+    margin-top: 4.0em;
+    font-size:60%;
+    float:right;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#hakbox a {
+    color: #0000ff;
+}
+
+#hakbox a:hover {
+    text-decoration:underline;
+}
+
+/* Animations */
+
+@keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+    }
+}
+
+@-webkit-keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+    }
+}
