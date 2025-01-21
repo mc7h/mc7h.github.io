@@ -127,7 +127,7 @@ i {
 
 #theme-toggle {
     position: fixed;
-    bottom: 20px;
+    top: 20px;
     left: 20px;
     padding: 10px;
     background: var(--heading-color);
