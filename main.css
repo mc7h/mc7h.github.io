@@ -151,10 +151,6 @@ i {
     font-family: "Times New Roman", Times, serif;
 }
 
-#hakbox a {
-    color: #0000ff;
-}
-
 #hakbox a:hover {
     text-decoration: underline;
 }
