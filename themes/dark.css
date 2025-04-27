@@ -1,0 +1,13 @@
+[data-theme="dark"] {
+    --background-color: #1a1a1a;
+    --text-color: #bebebe;
+    --heading-color: #ffffff;
+    --link-hover: rgb(85, 125, 95);
+    --date-bg: rgba(255, 255, 255, 0.1);
+    --date-border: rgba(255, 255, 255, 0.2);
+    --new-tag-bg: #2d1f00;
+    --new-tag-border: #4d2f00;
+    --new-tag-color: #ffa726;
+    --avatar-border: rgba(255, 255, 255, 0.2);
+    --legal-color: rgba(255, 255, 255, 0.5);
+} 

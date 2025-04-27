@@ -1,0 +1,13 @@
+:root {
+    --background-color: #ffffff;
+    --text-color: #545454;
+    --heading-color: #222;
+    --link-hover: rgb(250, 235, 255);
+    --date-bg: rgba(0, 0, 0, 0.05);
+    --date-border: rgba(0, 0, 0, 0.12);
+    --new-tag-bg: #fff3e0;
+    --new-tag-border: #ffe0b2;
+    --new-tag-color: #f57c00;
+    --avatar-border: rgba(0, 0, 0, 0.12);
+    --legal-color: rgba(0, 0, 0, 0.5);
+} 
