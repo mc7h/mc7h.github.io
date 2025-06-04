@@ -10,6 +10,7 @@ html {
     background-image: radial-gradient(#252525 2px, transparent 2px);
     background-size: 8px 8px;
     image-rendering: pixelated;
+    overflow-x: hidden;
 }
 
 body.adventure-theme {
@@ -70,7 +71,30 @@ body.adventure-theme {
 .page-title {
     text-align: center;
     color: #ffd700;
-    font-size: 2.5em;
+    font-size: 2.0em;
     margin-bottom: 40px;
     image-rendering: pixelated;
+}
+
+@media (max-width: 600px) {
+    .adventure-container {
+        padding: 10px;
+    }
+
+    .game-section {
+        margin: 20px 0;
+        padding: 15px;
+    }
+
+    .game-item {
+        padding: 8px;
+    }
+
+    .page-title {
+        font-size: 1.5em;
+    }
+
+    .game-year {
+        font-size: 0.8em;
+    }
 }
