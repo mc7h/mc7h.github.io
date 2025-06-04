@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'MonkeyIsland1990';
+    src: url('/fonts/MonkeyIsland-1990-refined.ttf') format('truetype'),
+         url('/fonts/MonkeyIsland-1990-refined.woff2') format('woff2');
+    font-display: swap;
+}
+
+html {
+    background-color: #1a1a1a;
+    background-image: radial-gradient(#252525 2px, transparent 2px);
+    background-size: 8px 8px;
+    image-rendering: pixelated;
+}
+
+body.adventure-theme {
+    background-color: #000;
+    color: #fff;
+    font-family: 'MonkeyIsland1990', monospace;
+    line-height: 1.6;
+    image-rendering: pixelated;
+    min-height: 100vh;
+}
+
+.adventure-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.game-section {
+    margin: 30px 0;
+    border: 2px solid #4a4a4a;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.game-section h2 {
+    color: #ffd700;
+    text-transform: uppercase;
+    margin: 0 0 15px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.game-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.game-item {
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 3px solid #ffd700;
+    background-color: rgba(255, 255, 255, 0.05);
+    transition: all 0.3s ease;
+}
+
+.game-item:hover {
+    transform: translateX(5px);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.game-year {
+    color: #ffd700;
+    font-size: 0.9em;
+    margin-left: 10px;
+}
+
+.page-title {
+    text-align: center;
+    color: #ffd700;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    image-rendering: pixelated;
+}
