@@ -88,3 +88,36 @@ body.adventure-theme {
     margin-top: 40px;
     padding-bottom: 20px;
 }
+
+@media (max-width: 600px) {
+    body {
+        font-size: 12pt;
+        padding: 1em 0.5em 2em;
+        max-width: 100vw;
+    }
+    .adventure-container {
+        padding: 0.5em;
+        margin: 0;
+    }
+    h1.page-title {
+        font-size: 1.3em;
+    }
+    h2 {
+        font-size: 1.1em;
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+    }
+    .game-list {
+        padding-left: 1em;
+    }
+    .game-item {
+        font-size: 1em;
+    }
+    .game-year {
+        font-size: 0.9em;
+    }
+    .copyright {
+        font-size: 0.8em;
+        padding: 0.5em 0;
+    }
+}
